@@ -1,1 +1,20 @@
-@import 'layout.css';
+body {
+    background-color: lightblue;
+    color: black;
+}
+
+button, input{
+    background-color: lightgreen;
+    color: darkblue;
+}
+
+#header{
+    display:block;
+    color: darkred;
+}
+
+#main{
+    display:block;
+}
+
+
