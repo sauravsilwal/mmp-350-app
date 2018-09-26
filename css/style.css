@@ -1,8 +1,20 @@
-body {
-    background-color: lightblue;
+#container {
+    background-color: darkslategray;
     color: black;
+    width: 100%; 
     
-    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0.5em;
+    padding: 0.5em;
+    overflow: hidden;
+    color: white;
+}
+li{
+float:left;
+margin-left: 1em;
 }
 
 button, input{
@@ -12,12 +24,13 @@ button, input{
 
 #header{
     /*5*/
-    background: #ddd;
+    background: skyblue;
 
 }
 
 
-#auth{}
+#auth{
+}
 
 
 
@@ -25,13 +38,17 @@ button, input{
 
 #main{
     /*15*/
-    background: black;
+    
     
 }
 
-#write-post{}
+#write-post{
+  float:left;
 
-#submit-post{}
+}
+
+#submit-post{
+}
 
 
 
@@ -40,14 +57,19 @@ button, input{
     /*40*/
     background: lightgray;
     padding: 1em;
-    height:150px
+    height:50px;
 
     
 }
 
-.post-text{}
+.post-text{
+}
 
-.post-info{}
+.post-info{
+    float: right;
+   
+    
+}
 
 
 
@@ -66,7 +88,7 @@ button, input{
     background: darkgreen;
     float: left;
     width:50%;
-    height:82%
+    height:100%;
     
 
 }
@@ -76,7 +98,7 @@ button, input{
     background: forestgreen;
     float: right;
     width: 50%;
-    height:82%
+    height:100%
 }
 
 
