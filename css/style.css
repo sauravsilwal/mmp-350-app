@@ -6,16 +6,13 @@
 }
 
 ul{
-    list-style-type: none;
     margin: 0.5em;
     padding: 0.5em;
     overflow: hidden;
     color: white;
 }
 li{
-float:left;
 margin-left: 1em;
-    text-align: center;
 }
 
 button, input{
@@ -35,7 +32,11 @@ button, input{
 }
 
 
-
+#menubar {
+ background-color: darkslategray;
+ text-align: center;
+    display: inline-block;
+}
 
 
 #main{
@@ -50,9 +51,8 @@ button, input{
 }
 
 #write-post{
-
-
 }
+
 #post-body{
     height: 60px;
         width: 400px;
@@ -87,9 +87,6 @@ button, input{
     
 }
 
-#menubar ul{
-
-}
 
 
 #box{
@@ -124,5 +121,6 @@ button, input{
 #footer{
     background: black;
     color: white;
+    text-align: center;
     
 }
