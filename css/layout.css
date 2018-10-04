@@ -9,6 +9,8 @@
     grid-gap: 1em; /* add to both columns and rows */
 	column-gap: 1em; /* just columns */
 	grid-row-gap: 10px; /* just rows */
+    max-width;
+	margin: 0 auto;
     
 }
 
@@ -37,4 +39,14 @@
     color:white;
 	grid-area: footer;
     text-align: center;
+}
+
+@media (max-width: 400px) {
+	#container {
+		ßgrid-template-areas: 
+			"header header header"
+			"sidebar sidebar sidebar"
+			"main main main"
+			"footer footer footer";
+	}
 }
