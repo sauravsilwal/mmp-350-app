@@ -65,9 +65,3 @@ window.addEventListener('load', function() {
 	});
 	
 });
-
-
-
-
-
-
