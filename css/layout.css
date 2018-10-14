@@ -18,7 +18,8 @@
     background-color: darkgoldenrod;
 	grid-area: header;
     text-align: center;
-    height: 100px;
+    display: inline-block;
+    height: fit-content;
     
     
     
@@ -35,7 +36,8 @@
    background-color: darkolivegreen;
     color: white;
 	grid-area: sidebar;
-    height:100px;
+    display: inline-block;
+
 }
 
 #footer{
