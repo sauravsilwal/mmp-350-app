@@ -1,10 +1,10 @@
 #container{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 2fr 1fr;
+	/*grid-template-columns: 1fr 1fr 1fr 1fr; */
+	/*grid-template-rows: 1fr 2fr 1fr; */
 	grid-template-areas:
-		"header header header header "
-		"sidebar sidebar main main"
+		"sidebar header header header "
+		"main main main main"
 		"footer footer footer footer";
     grid-gap: 1em; /* add to both columns and rows */
 	column-gap: 1em; /* just columns */
@@ -18,6 +18,9 @@
     background-color: darkgoldenrod;
 	grid-area: header;
     text-align: center;
+    height: 100px;
+    
+    
     
 }
 
@@ -32,6 +35,7 @@
    background-color: darkolivegreen;
     color: white;
 	grid-area: sidebar;
+    height:100px;
 }
 
 #footer{
