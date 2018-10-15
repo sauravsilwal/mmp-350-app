@@ -1,0 +1,48 @@
+/* Pairing 1 */
+@import url('https://fonts.googleapis.com/css?family=Exo|KoHo');
+
+/* Pairing 2 */
+@import url('https://fonts.googleapis.com/css?family=Gudea|Economica');
+
+
+/* Pairing 3 */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+
+
+
+
+.post-text{
+   font-family: 'Exo', 'Gudea', 'Roboto', sans-serif; 
+   font-size:1.2em;
+   color: darkred;
+   margin-top:1em;
+   line-height:1em;
+
+    
+}
+
+.post-info{
+    font-family: 'KoHo', 'Economica','Roboto Condensed', sans-serif;
+    font-size:1em;
+    color: darkgreen;
+    line-height:1em;
+    
+}
+
+#header{
+     font-family: 'Roboto', 'Gudea', 'Exo', sans-serif;  
+     color: darkslateblue;
+    
+}
+
+#sidebar{
+    font-family: 'Roboto Condensed','Economica','KoHo', sans-serif;
+    color: black;
+}
+
+@media (max-width: 400px) {
+	body {
+		font-size: 14px;
+		line-height: 1.2;
+	}
+}
