@@ -15,9 +15,9 @@
 }
 
 #header{
-    background-color: darkgoldenrod;
+    background-color: darkseagreen;
 	grid-area: header;
-    text-align: center;
+    text-align: right;
     display: inline-block;
     height: fit-content;
     
@@ -26,22 +26,21 @@
 }
 
 #main{
-   background-color: darkgreen;
-    color: white;
+    background-color: lightskyblue;
+    color: indianred;
 	grid-area: main;
     text-align: center;
 }
 
 #sidebar{
-   background-color: darkolivegreen;
-    color: white;
-	grid-area: sidebar;
-    display: inline-block;
+   background-color: darkseagreen;
+   grid-area: sidebar;
+   display: inline-block;
 
 }
 
 #footer{
-   background-color: darkslategrey;
+   background-color: black;
     color:white;
 	grid-area: footer;
     text-align: center;
