@@ -15,33 +15,29 @@
 }
 
 #header{
-    background-color: darkseagreen;
+    /*background-color: darkseagreen;*/
 	grid-area: header;
     text-align: right;
     display: inline-block;
     height: fit-content;
-    
-    
-    
 }
 
 #main{
-    background-color: lightskyblue;
-    color: indianred;
+    /*background-color: lightskyblue;*/
+    /*color: indianred;*/
 	grid-area: main;
     text-align: center;
 }
 
 #sidebar{
-   background-color: darkseagreen;
+   /*background-color: darkseagreen;*/
    grid-area: sidebar;
    display: inline-block;
 
 }
 
 #footer{
-   background-color: black;
-    color:white;
+   /*background-color: black;*/
 	grid-area: footer;
     text-align: center;
 }

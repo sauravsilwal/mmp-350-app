@@ -1,0 +1,67 @@
+body {
+	--hue: 100;
+	--sat: 50;
+	--lit: 50;
+	
+	
+    /* main */
+	--main: hsl(
+		var(--hue), 
+		calc(var(--sat) * 1%), 
+		calc(var(--lit) * 1%)
+	);
+
+	
+	--saturation: calc(var(--sat) - 20);
+    --lightness-one: calc(var(--lit) - 20);
+	--accent-one: hsl(
+		var(--hue), 
+		calc(var(--saturation) * 1%), 
+		calc(var(--lightness-one) * 1%)
+	);
+	
+	
+	--lightness: calc(var(--lit) + 40);
+	--accent-two: hsl(
+		var(--hue), 
+		calc(var(--sat) * 1%), 
+		calc(var(--lightness) * 1%)
+	);
+    
+    
+    --accent-three: hsl(
+		var(--hue), 
+		calc(var(--sat) * 1%), 
+		calc(var(--lit) * 1%)
+	); 
+			
+}
+
+#header{
+    background-color: var(--accent-three);
+}
+
+.post {
+	border: 1px solid var(--main);
+	margin: 0.25em;
+	padding: 0.25em;
+    background-color: var(--accent-one);
+}
+
+.post-text {
+	color: var(--accent-two);
+}
+
+.post-info {
+	color: var(--accent-two);
+}
+
+#main{
+    background-color: var(--accent-two);
+}
+
+#sidebar{
+    color: var(--accent-one);
+    background-color: var(--accent-two);
+   
+}
