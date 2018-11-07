@@ -36,8 +36,20 @@ body {
 	); 
 			
 }
-
+#title{
+    color: black;
+}
 #header{
+    color: var(--accent-three);
+    background-color: var(--accent-two);
+
+    
+}
+#sidebar{
+    color: var(--accent-one);
+    background-color: var(--accent-two);  
+}
+#main{
     background-color: var(--accent-three);
 }
 
@@ -53,15 +65,7 @@ body {
 }
 
 .post-info {
-	color: var(--accent-two);
+	color: var(--accent-three);
 }
 
-#main{
-    background-color: var(--accent-two);
-}
 
-#sidebar{
-    color: var(--accent-one);
-    background-color: var(--accent-two);
-   
-}
